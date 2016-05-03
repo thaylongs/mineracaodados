@@ -25,7 +25,7 @@ PROC SORT; by especie;
 PROC  FREQ;  TABLES especie;
 RUN;
 ```
-Esse script  produziu a seguinte saída: [Resultado.html ](https://htmlpreview.github.io/?https://github.com/thaylongs/mineracaodados/blob/master/Exec1-Peixes.html) . Fazendo uma análise da tabela de resultados, pode se observar que a distribuição dos peixes é desigual.
+Esse script  produziu a seguinte saída: [Resultado.html ](https://htmlpreview.github.io/?https://github.com/thaylongs/mineracaodados/blob/master/exec1/Exec1-Peixes.html) . Fazendo uma análise da tabela de resultados, pode se observar que a distribuição dos peixes é desigual.
 
 #### **Existe uma diversidade muito grande de espécies?**
 Possui uma grande diversidade, com 335 especies diferentes.
