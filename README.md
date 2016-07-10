@@ -6,4 +6,4 @@ Esse repositório tem como objetivo amazenar as atividades feitas na disciplina 
 
 [Execício 2 - Gerenciamento de Dados e Gráfico de barras (mduft.wikidot.com/ Aulas 5,6 e 7) ](https://github.com/thaylongs/mineracaodados/blob/master/exec2/exec2.md)
 
-[Execício 3 - Gráficos Bivariados (mduft.wikidot.com/ Aula 8)](https://github.com/thaylongs/mineracaodados/blob/master/exec3/exec3.md)
+[Execício 3 - Gráficos Bivariados (mduft.wikidot.com/ Aula   10)](https://github.com/thaylongs/mineracaodados/blob/master/exec3/exec3.md)
