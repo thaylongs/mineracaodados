@@ -52,3 +52,19 @@ Executando o código é possível obter o seguinte resultado:
 | 1             | 2946      | 43.30   | 2946                 | 43.30              |
 | 2             | 2672      | 39.28   | 5618                 | 82.58              |
 | 3             | 1185      | 17.42   | 6803                 | 100.00             |
+
+#### *Gráficos*
+Os gráficos de barras (bar charts) são mais comumente usados para examinar a distribuição das variáveis individuais. Para exemplificar um exemplo, iremos utiizar o resultado catégorio agrupado do exercício anterior. Para isso, utilizaremos o seguinte código:
+
+```sas
+LIBNAME mydata "/home/thaylongs0/my_courses/ddnprata0" access=readonly;
+data new; set mydata.savana;
+IF DIST_AGUA LE 300 THEN DIST_AGUA_CAT = 1;
+ELSE IF DIST_AGUA LT 600 THEN DIST_AGUA_CAT = 2;
+ELSE DIST_AGUA_CAT = 3;
+PROC GCHART; Vbar DIST_AGUA_CAT/Discrete type=PCT width=30;
+```
+
+Desta forma é possível obter o seguinte gráfico resultante:
+
+![](https://github.com/thaylongs/mineracaodados/blob/master/exec2/graph1.png)
